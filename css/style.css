@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    color: #f5f5f5;
+}
+.showcase{
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('..//images/netfliximage.jpg');
+    min-height: 700px;
+    width: 100%;
+    background-color: #111;
+}
+.showcase2{
+    position:absolute;
+    right: 0;
+    width: 100%;
+    min-height: 150vh;
+    width: 100%;
+    background-color: #111;
+}
+.showcase3{
+    position:absolute;
+    right: 0;
+    width: 100%;
+    min-height: 150vh;
+    width: 100%;
+    background-color: white;
+    
+}
+.showcase2 .im{ 
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:150vh;
+    object-fit: cover;
+    opacity: 0.7; 
+}
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:150vh;
+    object-fit: cover;
+    background: rgb(58, 58, 58);
+    mix-blend-mode: overlay;
+}
+
+.top{
+    position:absolute;
+    top:0;
+    left:0;
+    padding:30px 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    z-index: 1000;
+}
+
+.showcase3 header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(192, 190, 190);
+}
+.logo{
+    color:rgb(185, 8, 8);
+    font-size: 2em;
+    font-weight: 800;
+    cursor: pointer;
+}
+.login{
+    background: rgb(185, 8, 8);
+    color: white;
+    padding:7px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size:1em;
+
+}
+.login2{
+    color: rgb(66, 66, 66);
+    padding:7px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size:1em;
+    font-weight: 600;
+}
+.sett{
+    width:20%;
+    margin:auto;
+    overflow: hidden;
+    position: relative;
+    top:250px;
+    text-align: center;
+}
+.sett p{
+    color:rgb(124, 122, 122);
+    font-size: 0.95em;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.sett h2{
+    color:rgb(73, 72, 72);
+}
+.sett a{
+    display: inline-block;
+    padding:10px;
+    background-color: rgb(185, 8, 8);
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px light rgb(185, 8, 8);
+    width: 100%;
+    font-weight: 400;
+}
+.pas{
+    width:27%;
+    margin:auto;
+    overflow: hidden;
+    position: relative;
+    top:140px;
+}
+.pas p{
+    color:rgb(124, 122, 122);
+    font-size: 0.95em;
+    font-weight: 500;
+    line-height: 2em;
+}
+.pas h2{
+    color:rgb(73, 72, 72);
+}
+.ac p{
+    padding-bottom: 40px;
+}
+.showcase3 .reg input[type="text"],[type="password"]{
+    display: block;
+    background-color: white;
+    padding: 15px;
+    width:100%;
+    margin: 7px 0;
+    color: rgb(151, 147, 147);
+    border: 1px solid rgb(146, 144, 144);
+    border-radius: 3px;
+}
+.check{
+    font-size: 0.75em;
+    font-weight: 500;
+    color:rgb(124, 122, 122);
+}
+
+.showcase .text{
+    padding: 250px 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.text h3{
+    font-size: 3.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text p{
+    
+    padding-bottom: 0.5em;
+    font-size: 1.1em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.email{
+    background: #f5f5f5;
+    color:white;
+    width: 70%;
+    height:50px;
+    left: 0;
+    padding: 30px 10px;
+    border: 1px solid #f4f4f4;
+}
+.sign{
+    position: relative;
+    z-index: 10;
+    bottom: 240px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding:0 300px;
+}
+.sign .get{
+    background:rgb(185, 8, 8);
+    color: #f5f5f5;
+    height: 62px;
+    text-decoration: none;
+    padding: 18.5px 50px;
+    display: inline-block;
+    border: 1px solid rgb(185, 8, 8);
+    
+}
+.mainbar{
+    background: #000;
+    min-height: 500px;
+    padding: 200px 150px;
+    box-sizing: border-box;
+    position: relative;
+    border-top: 7px solid rgb(73, 73, 73);
+    border-bottom: 7px solid rgb(73, 73, 73);
+}
+.mainbar h2{
+    font-size: 3em;
+
+}
+.mainbar p{
+    font-size: 1.4em;
+    line-height: 1.4em;
+    max-width: 500px;
+}
+.mainbar .text{
+    position: absolute;
+    float:left; 
+    max-width: 600px;
+}
+.img{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    background: url('..//images/tv2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 600px;
+    
+}
+.sidebar{
+    background: #000;
+    min-height: 500px;
+    padding: 200px 150px;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 7px solid rgb(73, 73, 73);
+}
+.sidebar h2{
+    font-size: 3em;
+
+}
+.sidebar .text{
+    position: absolute;
+    float:right;
+    right:0;
+    max-width: 600px;
+}
+.sidebar p{
+    font-size: 1.4em;
+    line-height: 1.4em;
+    max-width: 500px;
+}
+.iphone{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    background: url('..//images/iphone.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 600px;
+    float:left;
+    
+}
+.aside{
+    background: #000;
+    min-height: 250px;
+    padding: 50px 150px;
+    border-bottom: 7px solid rgb(73, 73, 73);
+}
+.aside h2{
+    font-size: 3em;
+
+}
+.aside p{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    max-width: 510px;
+}
+.lastbar{
+    background: #000;
+    min-height: 500px;
+    padding: 150px 150px;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 7px solid rgb(73, 73, 73);
+}
+.lastbar h2{
+    font-size: 3em;
+
+}
+.lastbar .text{
+    position: absolute;
+    float:right;
+    right:0;
+    max-width: 600px;
+    padding-right:30px;
+}
+.lastbar p{
+    font-size: 1.4em;
+    line-height: 1.4em;
+    max-width: 500px;
+}
+.kids{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    background: url('..//images/kids.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 600px;
+    float:left;
+    
+}
+.second{
+    min-height:400px ;
+    z-index: 10;
+    
+    width: 100%;
+    text-align: center;
+    padding: 150px 100px;
+    background: #000;
+    
+}
+.in{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+.in .get{
+    position: relative;
+    background:rgb(185, 8, 8);
+    color: #f5f5f5;
+    text-decoration: none;
+    border: 1px solid rgb(185, 8, 8);
+    padding: 18.5px 50px;
+    display: inline-block;
+    
+}
+.container{
+    position: relative;
+    width:33%;
+    margin:auto;
+    overflow: hidden;
+    background-color:#000;
+    top:150px;
+    opacity: 0.8;
+}
+
+.container h2{
+    padding: 40px;
+}
+
+.container .form input[type="text"]{
+    display:block;
+    background-color: rgb(73, 73, 73);
+    color:rgb(167, 164, 164);
+    margin: auto;
+    padding: 10px 15px;
+    width: 80%;
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.container .form input[type="password"]{
+    display:block;
+    background-color: rgb(73, 73, 73);
+    color:rgb(167, 164, 164);
+    margin: auto;
+    padding: 10px 15px;
+    width: 80%;
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+ .container .form input[type="submit"]{
+     display:block;
+     width:80%;
+     padding: 10px 15px;
+     margin:auto;
+     background-color: rgb(185, 8, 8);
+     border: 1px solid rgb(185, 8, 8);
+     border-radius: 3px;
+     margin-top:35px;
+}
+.set input[type="submit"]{
+    display:inline-block;
+    width:100%;
+    padding: 10px;
+    margin:auto;
+    background-color: rgb(185, 8, 8);
+    border: 1px solid rgb(185, 8, 8);
+    border-radius: 4px;
+    margin-top:20px;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+.container .form .ch{
+    display: flex;
+    width: 80%;
+    margin:auto;
+    padding-top: 10px;
+    align-items: center;
+    padding-bottom: 70px;
+    
+}
+.c{
+    padding-right: 180px;
+    color:rgb(99, 99, 99);
+    font-size: 0.9em;
+}
+
+.container .form a{
+    text-decoration: none;
+    color:rgb(99, 99, 99);
+    font-size: 0.9em;
+
+}
+.face{
+    width: 80%;
+    margin: auto;
+}
+.face img{
+    filter:invert(1);
+    transform: scale(0.6);
+}
+.face .log{
+    display: flex;
+    font-size: 0.8em;
+    align-items: center;
+    font-weight: 5;
+    color:rgb(99, 99, 99);
+}
+.face .log a{
+    text-decoration: none;
+    
+    align-items: center;
+    font-weight: 400;
+    color:rgb(99, 99, 99);
+}
+.face .new{
+    padding-top: 10px;
+    display: flex;
+    font-size: 0.95em;
+    align-items: center;
+    font-weight: 5;
+    color:rgb(99, 99, 99);
+}
+.face .new a{
+    color:white;
+    text-decoration: none;
+}
+.face .this{
+    padding-top: 20px;
+    display: flex;
+    font-size: 0.53em;
+    align-items: center;
+    font-weight: 500;
+    color:rgb(99, 99, 99);
+    padding-bottom:30px;
+}
+.face .this a{
+    text-decoration: none;
+    color: rgb(5, 5, 139);
+}
+
+@media(max-width:1100px){
+    .showcase{
+        min-height:50px;
+    }
+    .showcase .text{
+        padding: 200px 51px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .text h3{
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+
+    }
+    .email{
+        background: white;
+        color:#f4f4f4;
+        width:70%;
+        height: 50px;
+        left: 0;
+        padding: 20px 10px;
+        border: 1px solid #f4f4f4;
+    }
+
+    .sign{
+        z-index: 10;
+        bottom: 150px;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        padding:0 25px;
+
+    }
+    .sign .get{
+        margin-top: 20px;
+        background:red;
+        color: #f5f5f5;
+        text-decoration: none;
+        padding: 2px 25px;
+        display: inline-block;
+        border-radius: 2px;
+    }
+    .in{
+        z-index: 10;
+        bottom: 150px;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        padding:0 25px;
+
+    }
+    .in .get{
+        margin-top: 20px;
+        background:red;
+        color: #f5f5f5;
+        text-decoration: none;
+        padding: 2px 25px;
+        display: inline-block;
+        border-radius: 2px;
+    }
+    .mainbar{
+        min-height: 350px;
+        padding: 50px 30px;
+        position: relative;
+        border-top: 3px solid rgb(73, 73, 73);
+        border-bottom: 3px solid rgb(73, 73, 73);
+        display: flex;
+        align-items: center;
+    }
+    .mainbar h2{
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    
+    }
+    .mainbar p{
+        font-size: 1.2em;
+        line-height: 1.2em;
+        max-width: 400px;
+    }
+    .mainbar .text{
+        position: relative;
+        float:none; 
+        display: block;
+        max-width: 700px;
+    }
+    .img{
+        display: none;
+    }
+    .sidebar{
+        min-height: 350px;
+        padding: 50px 30px;
+        position: relative;
+        border-bottom: 3px solid rgb(73, 73, 73);
+        display: flex;
+        align-items: center;
+    }
+
+    .sidebar h2{
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    
+    }
+    .sidebar .text{
+        position: relative;
+        float:none;
+        max-width: 600px;
+    }
+    .sidebar p{
+        font-size: 1.2em;
+        line-height: 1.2em;
+        max-width: 500px;
+    }
+    .iphone{
+      display: none;
+    }
+    .aside{
+        min-height: 200px;
+        padding: 50px 30px;
+        border-bottom: 3px solid rgb(73, 73, 73);
+        display: block;
+        align-items: center;
+    }
+    .aside h2{
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    
+    }
+    .aside p{
+        font-size: 1.2em;
+        line-height: 1.1em;
+        max-width: 510px;
+    }
+    .lastbar{
+        min-height: 350px;
+        padding: 50px 30px;
+        position: relative;
+        border-bottom: 3px solid rgb(73, 73, 73);
+        display: flex;
+        align-items: center;
+    }
+    .lastbar h2{
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+    .lastbar .text{
+        position: relative;
+        float:none;
+        max-width: 600px;
+        padding-right:3px;
+    }
+    .lastbar p{
+        font-size: 1.2em;
+        line-height: 1.2em;
+        max-width: 500px;
+    }
+    .kids{
+       display: none;
+        
+    }
+    .second{
+        min-height:250px;
+        width: 100%;
+        text-align: center;
+        padding: 15px 10px;
+    }
+    .second .text{
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+   
+    .in .get{
+        padding: 15px 25px;
+        border-radius: 2px;
+    }
+    .sign .get{
+        border-radius: 2px;
+        padding: 15px 25px;
+    }
+    .sett{
+        width:50%;
+    }
+    .pas{
+        width:50%;
+    }
+}
+@media(max-width:500px){
+    .showcase .text{
+        padding: 170px 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .sett{
+        width:70%;
+    }
+    .pas{
+        width:80%;
+    }
+    .text h3{
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        padding-bottom: 1.1em;
+    }
+    .text p{
+        max-width: 450px;
+        font-size: 1em;
+        padding-bottom: 1em;
+    }
+    .email{
+        background: white;
+        color:#f4f4f4;
+        width:100%;
+        height: 50px;
+        left: 0;
+        padding: 20px 10px;
+        border: 1px solid #f4f4f4;
+    }
+    
+    .login{
+        padding:3px 10px;
+        border-radius: 3px;
+        
+    }
+    .top{
+        padding:20px 30px;
+    }
+    .logo{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+  
+    .container{
+        position: relative;
+        width:95%;
+        margin:auto;
+        overflow: hidden;
+        background-color:#000;
+        top:150px;
+        opacity: 0.8;
+        height: 120vh;
+    }
+    .showcase2 .im{
+        min-height: 240vh;
+        opacity: 0.7;
+    }
+    .overlay{
+        min-height: 240vh;
+        background: rgb(58, 58, 58);
+        mix-blend-mode: overlay;
+    }
+} 
